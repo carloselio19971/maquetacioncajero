@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero BCP</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <div class="contenedor-cajero">
+        <!--Pantalla de inicio-->
+        <div class="pantalla-inicio ancho-azul-3">
+            <!--header - logo -->
+            <div class="header-pantalla-inicio">
+                <div class="logo-pantalla-inicio">
+                    <img src="img/LOGO-bcp-300x110.webp">
+                </div>
+            </div>
+            <!--prinicipal giros y retiro dinero-->
+            <div class="main-pantalla-inicio">
+                <div class="columna-1-pantalla-inicio">
+                        <div class="texto-columna-1">
+                             <h2>Operaciones Sin Tarjeta:</h2>
+                        </div>
+                        <div class="cobrar-giros">
+                             <div class="texto-cobrar-giros">
+                                    <h2>Cobrar Giros</h2>
+                                    <p>Hasta S/ 500</p>
+                                    <hr class="separador-giro">
+                            </div>  
+                         </div>    
+                </div>
+                <div class="columna-2-pantalla-inicio">
+                    <div class="texto-columna-2">
+                        <h2>Retira Rapido S/ 100</h2>
+                        <p>Acerca brevemente tu tarjeta al lector</p>
+                    </div>
+                    <div class="imagen-retiro">
+                        <img src="img/cajeor.png">
+                    </div>
+                </div>   
+            </div>
+            <div class="footer-pantalla-inicio">
+                <div class="datos-cajero">
+                    <p>Hora:3:54pm</p>
+                    <p>Cajero:C194480</p>
+                    <p>Telefono: (01) 319898</p>
+                </div>
+                <div class="datos-billetes">
+                    <h2>Billetes Disponibles</h2>
+                    <span>S/20</span><span>S/50</span>
+                </div>
+            </div>
+        </div>
+        <!--Esperar un momento porfavor-->
+        <div class="esperar-momento ancho-azul-3">
+            <div class="header-esperar">
+                <div class="logo-pantalla-inicio">
+                    <img src="img/LOGO-bcp-300x110.webp">
+                </div>
+            </div>
+            <div class="main-esperar-momento">
+                <h2>Espera un momento</h2>
+                <h2>porfavor</h2>
+                <hr class="separador-esperar">
+            </div>
+        </div>
+        <!--Ingresar DNI-->
+        <div class="ingresar-dni ancho-azul-2">
+            <div class="contenedor-boton-salir">
+                <button class="btn-salir">
+                    <div class="icono">
+                        <img class="icono-salir" src="iconos/logout_FILL0_wght400_GRAD0_opsz24 (1).svg">
+                    </div>
+                    <div class="texto-boton">
+                        Salir
+                    </div>    
+                </button>
+            </div>
+            <div class="main-dni">
+                <div class="columna-1-main-dni">
+                    <div class="texto-dni">
+                        <h2>Ingresa tu número de DNI</h2>
+                        <p>para empezar sesion</p>
+                        <input class="ingresa-dni" class="ingresa-numero" type="password" placeholder="8 numeros">
+                    </div>
+                    <div class="boton-dni">
+                        <button class="ingresar-sin-dni">
+                            <div class="icono-ingresar-sin-dni">
+                                <img src="iconos/toolbar_FILL0_wght400_GRAD0_opsz24.svg">
+                            </div>
+                            <div class="texto-ingresar-sin-dni">
+                                Ingresa Sin DNI
+                            </div> 
+                        </button>
+                    </div>
+                </div>
+                <div class="columna2-main-imagen">
+                    <img src="img/registresudni.png">
+                </div>
+            </div>
+        </div>
+        <!--Verificando DNI-->
+        <div class="validando-ingresar-dni ancho-azul-2">
+            <div class="main-dni">
+                <div class="columna-1-main-dni ">
+                    <div class="texto-dni">
+                        <h2>Ingresa tu número de DNI</h2>
+                       <p>para empezar sesion</p>
+                       <div class="cotenedor-spiner">
+                        <div class="spinner"></div>
+                        <div class="texto-spinner">
+                            Verificando   
+                           </div>
+                       </div>     
+                  </div>
+                </div>
+            </div>
+        </div>
+        <!--Operacion a Retalizar-->
+        <div class="operacion-hoy ancho-azul-2">
+            <div class="header-operacion-hoy">
+                <div class="texto-bienvenido">
+                    <h3>Bienvenido</h3>
+                    <p>¿Que Operacion quieres hacer hoy?</p>
+                </div>
+                <div class="contenedor-boton-salir">
+                    <button class="btn-salir">
+                        <div class="icono">
+                            <img class="icono-salir" src="iconos/logout_FILL0_wght400_GRAD0_opsz24 (1).svg">
+                        </div>
+                        <div class="texto-boton">
+                            Salir
+                        </div>    
+                    </button>
+                </div>
+            </div>
+            <div class="main-operaciones">
+                <div class="operacione-principales">
+                    <div class="retirar-efectivo">
+                        <div class="icono-retirar-efectivo">
+                            <img class="icono-cajero" src="iconos/cajero-automatico.svg">
+                        </div>
+                        <div class="texto-retirar-efectivo">
+                            <h3>Retirar</h3>
+                            <p>Efectivo</p>
+                            <hr>
+                        </div>  
+                    </div>
+                    <div class="transferir-efectivo">
+                        <p>Transferir</p>
+                        <p>Efectivo</p>
+                        <hr class="separador-blanco">
+                    </div>
+                    <div class="adelanto-sueldo">
+                        <p >Adelanto</p>
+                        <p>Sueldo</p>
+                        <hr class="separador-blanco">
+                    </div>
+                </div>
+                <div class="operaciones">
+                    <div class="texto-operaciones">
+                        <p>Tus informacion</p>
+                    </div>
+                    <div class="contenedor-operaciones">
+                        <div class="actualizar-celular">
+                            <div class="icono-operaciones">
+                                <img src="iconos/telefono-inteligente.svg">
+                            </div>
+                            <div class="texto-informacion-operaciones">
+                                <p>Actualizar</p>
+                                <p>tu celular</p>
+                            </div>
+                        </div>
+                        <div class="cambiar-clave">
+                            <div class="icono-operaciones">
+                                <img src="iconos/cambiar-la-contrasena.svg">
+                            </div>
+                            <div class="texto-informacion-operaciones">
+                                <p>Cambiar </p>
+                                <p>clave de</p>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <!--Selecion tipo de cuenta-->
+    </div>
+        
+</body>
+</html>

@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,500;1,100;1,200;1,500&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+ 
+}
+
+
+.ancho-azul{
+    background-color: #03318C;
+}
+
+.ancho-azul-2{
+    background-color:#032886;
+}
+
+.ancho-azul-3{
+    background-color: #012771;
+}
+
+
+.ancho-celeste{
+    background-color: #0F5AF2;
+}
+.ancho-blanco{
+    background-color: white;
+}
+.ancho-azul, .ancho-celeste, .ancho-blanco, .ancho-azul-2, .ancho-azul-3{
+    width: 1200px;
+    height:700px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.pantalla-inicio{
+   
+}
+
+.header-pantalla-inicio{
+    display: flex;
+    justify-content: end;
+    height: 100px;
+}
+
+.logo-pantalla-inicio{
+    height: 150px;
+   
+}
+
+.logo-pantalla-inicio img{
+    height: 50%;
+}
+
+.main-pantalla-inicio{
+   display: grid;
+   grid-template-columns: 35% 75%;
+   gap:180px;
+}
+
+.columna-1-pantalla-inicio{
+    padding-left: 50px;
+    border-right: 1px solid white;
+    height: 500px;
+}
+
+.texto-columna-1 h2{
+    margin-top: 90px;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.texto-columna-1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.cobrar-giros{
+    width: 320px;
+    height:150px;
+    background-color:white;
+    border-radius: 20px;
+    
+}
+
+.texto-cobrar-giros{
+  color:#03318C;
+  font-family: "Roboto", sans-serif;
+}
+
+.texto-cobrar-giros h2 {
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 30px;
+}
+
+.texto-cobrar-giros p{
+    padding-top: 5px;
+    font-size: 20px;
+
+}
+
+.texto-cobrar-giros{
+    padding-left: 40px;
+}
+
+
+.separador-giro {
+    margin-top:10px;
+    background-color: #03318C;
+    width:30px;
+    height: 3px;
+    border: none;
+}
+
+.separador-esperar{
+    margin-top: 20px;
+    background-color:white;
+    height: 5px;
+    border: none;
+    width: 100px;
+}
+
+.texto-columna-2{
+    color:white;
+    font-family: "Roboto", sans-serif;
+}
+
+.texto-columna-2 h2{
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+}
+.texto-columna-2 p{
+    margin-top: 10px;
+    font-size: 28px;
+    margin-left:-70px;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer-pantalla-inicio{
+    display: grid;
+    grid-template-columns: 48% 52%;
+
+}
+.datos-cajero{
+background-color:navy;
+height: 120px;
+color:white;
+font-family: "Roboto", sans-serif;
+font-weight: 100px;
+padding-left: 50px;
+padding-top: 20px;
+}
+
+.datos-cajero p{
+    padding-top: 8px;
+}
+.datos-billetes{
+background-color: #0F5AF2;
+height: 120px;
+color:white;
+font-family: "Roboto", sans-serif;
+font-weight: 100px;
+padding-left: 50px;
+}
+
+.datos-billetes h2{
+    color:white;
+    font-family: "Roboto", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+   
+}
+
+.datos-billetes span{
+    font-size: 35px;
+    font-weight: 500;
+    padding-right: 20px;
+}
+
+.imagen-retiro{
+    width: 600px;
+    height: 460px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+
+}
+
+.imagen-retiro img {
+    width: 70%;
+}
+
+
+.header-esperar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-esperar-momento{
+    color:white;
+    font-family: "Roboto", sans-serif;
+    padding-left: 100px;
+    padding-top: 90px;
+}
+
+
+
+.main-esperar-momento h2{
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+/* Ocultando elementos */
+.pantalla-inicio{
+  display:none;
+}
+.esperar-momento{
+   display: none;
+}
+
+/* Ingresar dni*/
+
+.contenedor-boton-salir{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-salir{
+    width:100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #032886;
+    color:white;
+    margin-top: 20px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.main-dni{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.columna2-main-imagen{
+    height: 640px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.columna2-main-imagen img{
+    height: 80%;
+    margin-right: 100px;
+}
+
+.columna-1-main-dni{
+    padding-left: 50px;
+    margin-top: 100px;
+    color:white;
+}
+
+.texto-dni h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    padding-bottom: 2px;
+}
+
+.texto-dni p{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.ingresa-dni{
+    height: 60px;
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 3px solid white;
+    background-color: #032886;
+    color:white;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.boton-dni{
+    margin-top: 100px;
+}
+
+.boton-dni button{
+    background-color:#032886;
+    height: 50px;
+    width: 180px;
+    border-radius: 20px;
+    border: 2px solid white;
+    color:white;
+}
+
+
+.icono-salir{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    filter: invert(92%) sepia(92%) saturate(30%) hue-rotate(54deg) brightness(106%) contrast(107%);
+}
+
+.btn-salir{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-boton{
+    margin-left: -10px;
+    font-size: 17px;
+}
+
+.ingresar-sin-dni{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono-ingresar-sin-dni{
+    filter: invert(72%) sepia(74%) saturate(6396%) hue-rotate(8deg) brightness(105%) contrast(96%);
+    margin-right: 10px;
+}
+
+.ingresar-dni{
+   display: none;
+}
+
+.spinner {
+    margin-top: 50px;
+    border: 6px solid rgba(0, 0, 0, 0);
+    border-top: 6px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .cotenedor-spiner{
+    display: flex;
+    align-items: center;
+  }
+
+  .texto-spinner{
+    padding-left: 50px;
+    font-size: 20px;
+    margin-top:40px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .validando-ingresar-dni{
+    display: none;
+  }
+
+  .texto-bienvenido{
+    color:white;
+    font-family: "Roboto", sans-serif;
+    padding-left: 40px;
+    padding-top: 20px;
+  }
+
+  .texto-bienvenido p{
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: 400;
+   
+  }
+
+  .header-operacion-hoy{
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    margin-bottom: 60px;
+  }
+
+  .main-operaciones{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+
+  .operacione-principales{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .retirar-efectivo{
+    height: 310px;
+    width: 300px;
+    background-color:white;
+    border-radius: 10px;
+    grid-row: span 2;
+  }
+
+  .transferir-efectivo{
+    background-color: #ed771f;
+    height:140px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-left: -30px;
+  }
+  .adelanto-sueldo{
+    margin-top: -20px;
+    background-color: #ed771f;
+    height: 140px;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: -30px;
+  }
+
+  .texto-operaciones{
+    color:white;
+    padding-left: 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+  }
+
+  .contenedor-operaciones{
+    padding-left: 30px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .actualizar-celular , .cambiar-clave{
+    
+    height: 150px;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 20px;
+   
+  }
+
+  .cambiar-clave{
+    margin-left: -60px;
+  }
+
+  .operaciones{
+    margin-left: -50px;
+  }
+  .icono-cajero{
+    margin-top: 50px;
+    width: 120px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+    filter: invert(11%) sepia(58%) saturate(6681%) hue-rotate(222deg) brightness(79%) contrast(104%);
+  }
+
+  .texto-retirar-efectivo{
+    color:#032886;
+    padding-left: 40px;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+
+  }
+
+  .texto-retirar-efectivo h3{
+    font-weight: 300;
+    padding-bottom: 2px;
+  }
+
+  .texto-retirar-efectivo p {
+    font-weight: 300;
+    padding-bottom: 2px;
+  }
+
+  .texto-retirar-efectivo hr{
+    margin-top: 20px;
+    width: 35px;
+    height: 5px;
+    background-color: #032886;
+    border-radius: 10px;
+  }
+
+
+  .transferir-efectivo, .adelanto-sueldo{
+    color:white;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+
+  .separador-blanco{
+    margin-top:15px;
+    width: 40px;
+    color:white;
+    height: 4px;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .icono-operaciones{
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+
+  .icono-operaciones img{
+    height:35%;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+  }
+
+
+  .texto-informacion-operaciones{
+    color:white;
+    font-size: 20px;
+    padding-left: 30px;
+    margin-top:-30px;
+  }
+
+  .operacion-hoy{
+    
+  }
