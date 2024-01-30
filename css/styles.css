@@ -7,9 +7,13 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+    
  
 }
 
+body{
+    background-color: aliceblue;
+}
 
 .ancho-azul{
     background-color: #03318C;
@@ -313,6 +317,12 @@ padding-left: 50px;
     filter: invert(92%) sepia(92%) saturate(30%) hue-rotate(54deg) brightness(106%) contrast(107%);
 }
 
+.icono-volver{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
 .btn-salir{
     font-size: 15px;
     display: flex;
@@ -529,5 +539,214 @@ padding-left: 50px;
   }
 
   .operacion-hoy{
-    
+        display: none;
   }
+
+  .contenedor-icono-retirar{
+    height: 100px;
+    padding-right: 20px ;
+    padding-left: 40px;
+  }
+
+  .contenedor-icono-retirar img{
+    height: 50%;
+  } 
+
+  .texto-selecciona-operaciones{
+    display: flex;
+  }
+  .header-seleccion-operaciones{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 85% 15%;
+
+  }
+  .titulo-texto-icono{
+    font-family: "Roboto", sans-serif;
+    color:gray;
+    font-weight: 500;
+  }
+  
+  .parrafo-texto-icono{
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .btn-cancelar , .btn-volver  {
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 120px;
+    height: 40px;
+    background-color: white; 
+  }
+
+  .btn-regresar-izquierda{
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 120px;
+    height: 40px;
+    background-color: black; 
+  }
+
+  .contenedor-tipos-cuenta{
+    margin-top: 25px;
+    padding-left: 40px;
+  }
+
+  .texto-cuenta{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color:black;
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+
+  .boton-tipo-cuenta-soles,.boton-tipo-cuenta-dolares{
+    height: 150px;
+    width: 300px;
+    
+    border-radius: 20px;
+  }
+  .boton-tipo-cuenta-soles{
+    background-color: #03318C;
+    margin-bottom: 80px;
+  }
+
+  .boton-tipo-cuenta-dolares{
+    background-color: #0F5AF2;
+  }
+
+
+  .texto-boton-cuenta{
+    color:white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .seleciones-top-cuenta{
+    display: none;
+  }
+  
+  .btn-volver{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .texto-boton{
+    font-size: 15px;
+    color:black;
+    font-size: 100;
+    font-family: "Roboto", sans-serif;
+  }
+  
+
+  .retirar-soles{
+    height: 300px;
+    width: 300px;
+    background-color: #012771;
+    border-radius: 20px;
+    margin-right: 50px;
+  }
+
+  .retirar-dolares{
+    height: 300px;
+    width: 300px;
+    background-color: #0F5AF2;
+    border-radius: 20px;
+  }
+
+  .main-selecione-monedas{
+    margin-bottom: 50px;
+    margin-left: 40px;
+  }
+
+  .main-selecione-monedas{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  .icono-retiro{
+    height: 100px;
+    margin-bottom:50px;
+  }
+
+  .icono-retiro img{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 20%;
+    filter: invert(98%) sepia(12%) saturate(417%) hue-rotate(294deg) brightness(111%) contrast(100%);  
+}
+
+.texto-retiro{
+    color:white;
+    margin-left: 50px;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+}
+
+.texto-retiro hr{
+    margin-top: 10px;
+    background-color: white;
+    width: 50px;
+    height: 5px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.seleccione-moneda-retirar{
+    display: none;
+}
+
+.informacion-billetes-horario{
+    margin-top: 70px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.billetes-disponibles{
+    color:#012771;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    padding-right: 20px;
+    border-right:1px solid gray;
+}
+
+.billetes{
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.horario-atencion{
+    margin-right: 20px;
+    display: flex;
+}
+
+.icono-horario{
+    height: 50px;
+    padding-left: 20px;
+}
+
+
+.icono-horario img{
+    height: 50%;
+    filter: invert(70%) sepia(92%) saturate(848%) hue-rotate(108deg) brightness(105%) contrast(101%);
+}
+
+.texto-horario{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color:gray;
+    font-weight: 500;
+}
+
+.texto-horario :nth-child(1){
+    color:#00ffd1;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 10px;
+}
