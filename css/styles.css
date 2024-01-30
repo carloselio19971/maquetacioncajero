@@ -702,7 +702,7 @@ padding-left: 50px;
 }
 
 .informacion-billetes-horario{
-    margin-top: 70px;
+    margin-top: 30px;
     margin-left: 50px;
     display: flex;
     justify-content: center;
@@ -749,4 +749,156 @@ padding-left: 50px;
     color:#00ffd1;
     font-family: "Roboto", sans-serif;
     margin-bottom: 10px;
+}
+
+.informacion-monto-retirar{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.billetes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+}
+
+.billete-20, .billete-50, .billete-100, .billete-150{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #012771;
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    border-bottom: 10px;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    
+}
+.monto input {
+    margin-top: 10px;
+    height: 60px;
+    width: 250px;
+    border-radius: 12px;
+    border: 2px solid #012771;
+    margin-bottom: 10px;
+    color:#012771;
+    font-size: 20px;
+    padding-left: 40px;
+
+}
+
+.confirmar{
+    height: 60px;
+    width: 250px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color:  #b7b7bf;
+    border: none;
+    color:gray;
+    font-size: 20px;
+}
+
+.ingresar-monto{
+    margin-right: 50px;
+    margin-top: 20px;
+
+}
+
+.texto-ingresar-monto{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.footer-cuenta{
+    width: 600px;
+    background-color: white;
+    height: 110px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 2px solid #b7b7bf;
+}
+
+.footer-cuenta{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.estilo-cuenta{
+    color:#b7b7bf;
+    font-size: 15px;
+    padding-bottom: 2px;
+    font-weight: 200;
+    font-family: "Roboto", sans-serif;
+}
+
+.parrafo-ahorro-soles{
+    font-size: 15px;
+}
+
+.saldo-disponible{
+    color:black;
+    border: none;
+    margin-top: 10px;
+}
+
+.btn-ver-saldo{
+    width: 120px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: white;
+    border: 1px solid #b7b7bf;
+    color:#012771;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icono-ver-saldo{
+    height: 20px;
+}
+
+.icono-ver-saldo img{
+    height: 100%;
+    padding-right: 20px;
+    filter: invert(50%) sepia(26%) saturate(1441%) hue-rotate(343deg) brightness(102%) contrast(97%);
+}
+
+.seleccione-monto-retirar{
+    display: none;
+}
+
+.texto-retiro{
+    font-family: "Roboto", sans-serif;
+}
+
+.texto-retiro-cajero{
+    text-align: center;
+   
+    padding-top:100px ;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.texto-retiro-cajero:nth-child(1){
+    font-size: 40px;
+}
+
+.parrafo-retiro{
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.contenedor-detalles-retiro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
