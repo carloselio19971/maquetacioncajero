@@ -72,7 +72,7 @@
                     <div class="icono">
                         <img class="icono-salir" src="iconos/logout_FILL0_wght400_GRAD0_opsz24 (1).svg">
                     </div>
-                    <div class="texto-boton">
+                    <div class="texto-boton-operaciones">
                         Salir
                     </div>    
                 </button>
@@ -129,7 +129,7 @@
                         <div class="icono">
                             <img class="icono-salir" src="iconos/logout_FILL0_wght400_GRAD0_opsz24 (1).svg">
                         </div>
-                        <div class="texto-boton">
+                        <div class="texto-boton-operaciones">
                             Salir
                         </div>    
                     </button>
@@ -360,14 +360,43 @@
             </div>
         </div>
         <!--Detalles del Retiro-->
-        <div class="detalles-retiro ancho-blanco">
+        <div class="detalles-retiro ancho-3">
             <div class="texto-retiro-cajero">
                 <p>Revisa el detalle de tu retiro</p>
                 <p class="parrafo-retiro">No olvides recoger tu tarjeta al finalizar</p>
             </div>
             <div class="contenedor-detalles-retiro">
                 <div class="detalle-retiro">
-
+                    <div class="header-detalle-retiro">
+                        <div class="fecha">
+                            <p>2 de Julio , 03:55pm</p>
+                        </div>
+                        <div class="cajero">
+                            <p>Cajero 194480</p>
+                        </div>
+                    </div>
+                    <div class="monto-retirar">
+                        <p>Monto en soles a retirar</p>
+                        <h3>S/ 20</h3>
+                    </div>
+                    <div class="footer-retirar">
+                        <div class="texto-cuenta-origen">
+                            <p>Cuenta Origen</p>
+                        </div>
+                        <div class="texto-ahorro-soles">
+                            <p>Ahorro Soles</p>
+                        </div>
+                    </div>
+                    <div class="contenedor-boton">
+                        <button class="btn-primir-boucher">
+                            <div class="icono">
+                                <img src="iconos/impresora.svg">
+                            </div> 
+                            <div class="texto-imprimir">
+                                Imprimir Voucher
+                            </div>
+                        </button>
+                    </div>
                 </div>
                 <div class="botones-ver-sin-ver">
                     <div class="contenedor-retir-ver-saldo">
@@ -380,12 +409,69 @@
                         <button class="btn-sin-ver-saldo">
                             <p>Retirar</p>
                             <p>sin ver saldo</p>
-                        </button>    
-                       
+                        </button>      
                     </div>
                 </div>
             </div>
            
+        </div>
+        <!--Ingres tu clave-->
+        <div class="ingresa-tu-clave ancho-azul-3">
+            <div class="ingresa-clave">
+                <div class="texto-clave">
+                    <p>Ingresa tu Clave</p>
+                    <p>para confirmar tu retiro</p>
+                </div>
+
+                <div class="input-retiro">
+                     <input type="password" placeholder="4 numeros">
+                    <img class="clave" src="iconos/lock_FILL0_wght400_GRAD0_opsz24.svg"> 
+                </div>
+
+            </div>
+            <div class="imagen-cajero">
+                <img src="img/cajero.jpg">
+            </div>
+        </div>
+        <!--Verificando clave-->
+        <div class="verificando-tu-clave ancho-azul-3">
+            <div class="ingresa-clave">
+                <div class="texto-clave">
+                    <p>Ingresa tu Clave</p>
+                    <p>para confirmar tu retiro</p>
+                </div>
+                <div class="contenedor-spiner">
+                    <div class="spinner">
+
+                    </div>
+                    <div class="verificando">
+                        Verificando
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!--Autorizando-->
+        <div class="autorizando ancho-azul-3">
+            <div class="texto-autorizando">
+                <h3>Autorizando</h3>
+                <p>espera un momento</p>
+                <hr>
+            </div>
+        </div>
+        <!--Final-->
+        <div class="final ancho-blanco">
+                <div class="imagen-final">
+                    <img src="img/desinfectar-manos.jpg">
+                </div>
+                <div class="texto-estamos-contigo">
+                    <p>Por que estamos contigo</p>
+                    <p>Recuerda desinfectar las manos</p>
+                    <p>Despues de utilizar el cajero</p>
+                </div>
+                <div class="unidos-peru">
+                    <p>#UnidosporelPerú</p>
+                </div>
         </div>
     </div>
 </body>
